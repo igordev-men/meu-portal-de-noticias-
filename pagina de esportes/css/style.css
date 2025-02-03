@@ -279,9 +279,22 @@ p {
 }
 .img-sub-nws{
     border-radius: var(--radius-medium);
-        max-width: 100%; /* Largura máxima da imagem */
-        height: auto; /* Altura automática para manter a proporção */
+        max-width: 100%; 
+        height: auto; 
     
     
+}
+.sub-nws-2 {
+    background-color: var(--box-economia);
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: var(--radius-medium);
+    max-width: 60%;
+    margin: 20px auto;
 }
 
